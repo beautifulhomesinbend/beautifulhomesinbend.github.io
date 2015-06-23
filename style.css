@@ -1,0 +1,116 @@
+/******************************
+*
+* Patti Geraghty
+* 
+* ColdWell Banker Real Estate
+*
+* Bend, OR, USA
+* 
+******************************/
+
+* {
+	border: 0;
+}
+#top-nav-id {
+    box-shadow: 0px -10px 10px 10px #808080;	
+}
+
+.below-nav {
+	margin-bottom: 85px;
+}
+
+.navbar-brand {
+	font-size: 120%;
+	margin-bottom: 14px;
+}
+
+.navbar-right:last-of-type {
+	padding-right: 15px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-bottom: 0px;
+}
+
+.jumbotron .container {
+	min-height: 450px;
+    max-width: 1080px;
+    margin-bottom: 40px;
+}
+
+.elk {
+	background-image: url('img/elk-lake.jpg');
+	background-position: center center;
+    box-shadow: 0px 10px 10px 5px #808080;
+}
+
+.mirror {
+	background-image: url('img/Mirror_Pond_from_The_Emblem_Club.jpg');	
+	background-position: center center;
+    box-shadow: 0px 10px 10px 5px #808080;
+}
+
+.bachelor {
+	background-image: url('img/Mt._Bachelor_from_Tumalo_Mtn.jpg');	
+	background-position: center center;
+    box-shadow: 0px 10px 10px 5px #808080;
+}
+
+.explanatory-text {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+}
+
+.well {
+	border-radius: 0;
+}
+
+.foot-section {
+	background: #0f0f0f;
+}
+
+.foot-name {
+	font-size: 160%;
+	color: white;
+	padding: 20px;
+}
+
+.glyph-holder {
+	padding: 20px;
+}
+
+@media screen and (min-width: 795px) {
+
+	.elk {
+	    padding-top: 50px;
+	    margin-top: -50px;
+	}
+
+	.mirror {
+	    padding-top: 50px;
+	    margin-top: -50px;
+	}
+
+	.bachelor {
+	    padding-top: 50px;
+	    margin-top: -50px;
+	}
+
+	.media-text {
+		padding-top: 60px;
+	}
+
+}
+
+@media screen and (min-width: 990px) {
+	.below-nav {
+		margin-bottom: 90px;
+	}
+
+}

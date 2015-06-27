@@ -21,8 +21,10 @@ a:hover {
 }
 
 #top-nav-id {
-    box-shadow: 0px -10px 10px 10px #808080;	
+    box-shadow: 0px -10px 10px 10px #808080;
+    position: relative;
 }
+
 
 .below-nav {
 	margin-bottom: 85px;

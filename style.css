@@ -39,8 +39,8 @@
     margin-bottom: 40px;
 }
 
-.elk {
-	background-image: url('img/elk-lake.jpg');
+.sparks {
+	background-image: url('img/sparks-lake.jpg');
 	background-position: center center;
     box-shadow: 0px 10px 10px 5px #808080;
 }
@@ -68,6 +68,23 @@
 	border-radius: 0;
 }
 
+.media-text {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+p {
+	margin-bottom: 1px;
+}
+
+.button-holder button {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+
 .foot-section {
 	background: #0f0f0f;
 }
@@ -84,7 +101,7 @@
 
 @media screen and (min-width: 795px) {
 
-	.elk {
+	.sparks {
 	    padding-top: 50px;
 	    margin-top: -50px;
 	}
@@ -100,9 +117,12 @@
 	}
 
 	.media-text {
-		padding-top: 100px;
+		padding-top: 30px;
 	}
 
+	.button-holder button {
+		margin-top: 15px;
+	}
 }
 
 @media screen and (min-width: 990px) {

@@ -27,7 +27,7 @@ a:hover {
 
 
 .below-nav {
-	margin-bottom: 85px;
+	margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -89,10 +89,25 @@ a:hover {
 	padding-top: 10px;
 }
 
+.button-holder {
+	text-align: center;
+	padding-top: 20px;
+}
+
 .button-holder button {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 5px;
+}
+
+.testimonials {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.testimony {
+	font-style: italic;
 }
 
 .foot-section {
@@ -137,11 +152,4 @@ ul.footer-links {
 	.button-holder button {
 		margin-top: 15px;
 	}
-}
-
-@media screen and (min-width: 990px) {
-	.below-nav {
-		margin-bottom: 90px;
-	}
-
 }

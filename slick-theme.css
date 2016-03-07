@@ -27,7 +27,7 @@
 
     display: block;
 
-    width: 20px;
+    width: 10%;
     height: 20px;
     padding: 0;
     margin-top: -10px\9; /*lte IE 8*/
@@ -37,10 +37,11 @@
 
     cursor: pointer;
 
-    color: transparent;
     border: none;
     outline: none;
     background: transparent;
+
+    z-index: 1000;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -80,11 +81,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -5px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -5px;
     left: auto;
 }
 .slick-prev:before
@@ -98,12 +99,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -5px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -5px;
 }
 .slick-next:before
 {
@@ -123,7 +124,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    bottom: -5px;
 
     display: block;
 
@@ -143,7 +144,7 @@
     width: 20px;
     height: 20px;
     margin: 0 5px;
-    padding: 0;
+    padding: 10px;
 
     cursor: pointer;
 }

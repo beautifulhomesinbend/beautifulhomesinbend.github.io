@@ -17,13 +17,14 @@ a:hover {
 }
 
 #top-nav-id {
-	box-shadow: 0px -10px 10px 10px #808080;
+	box-shadow: 0px -10px 10px 10px ##a5a5a5;
 	background-color: #0F0F0F;
 }
 
 .navbar-brand {
 	font-size: 120%;
 	margin-bottom: 20px;
+	color: #a5a5a5;
 }
 
 .navbar-right:last-of-type {
@@ -125,6 +126,10 @@ a:hover {
 	font-size: 160%;
 	color: white;
 	padding: 20px;
+}
+
+.foot-titles {
+	color: #a5a5a5;
 }
 
 .glyph-holder {

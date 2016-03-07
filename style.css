@@ -43,6 +43,8 @@ a:hover {
 	box-shadow: 0px 10px 10px 5px #808080;
 	color: white;
 	text-shadow: black 0.3em 0.3em 0.3em;
+	overflow: auto;
+	word-wrap: break-word;
 }
 
 #sparks-lake h1, #sparks-lake p, #mirror-pond h1, #mirror-pond p, #mt-bachelor h1, #mt-bachelor p {
@@ -135,17 +137,10 @@ ul.footer-links {
 
 @media screen and (min-width: 795px) {
 
-	.sparks {
-	    padding-top: 50px;
-	    margin-top: -50px;
-	}
-
-	.mirror {
-	    padding-top: 50px;
-	    margin-top: -50px;
-	}
-
-	.bachelor {
+	#sparks-lake h1, #sparks-lake p, #mirror-pond h1, #mirror-pond p, #mt-bachelor h1, #mt-bachelor p {
+		bottom: 0;
+		position: absolute;
+		font-size: 1.7em;
 	    padding-top: 50px;
 	    margin-top: -50px;
 	}

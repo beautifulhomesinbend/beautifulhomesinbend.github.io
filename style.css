@@ -50,7 +50,7 @@ a:hover {
 #sparks-lake h1, #sparks-lake p, #mirror-pond h1, #mirror-pond p, #mt-bachelor h1, #mt-bachelor p {
 	bottom: 0;
 	position: absolute;
-	font-size: 2.2em;
+	font-size: 1.5em;
 }
 
 .sparks {
@@ -140,7 +140,7 @@ ul.footer-links {
 	#sparks-lake h1, #sparks-lake p, #mirror-pond h1, #mirror-pond p, #mt-bachelor h1, #mt-bachelor p {
 		bottom: 0;
 		position: absolute;
-		font-size: 1.7em;
+		font-size: 2.2em;
 	    padding-top: 50px;
 	    margin-top: -50px;
 	}

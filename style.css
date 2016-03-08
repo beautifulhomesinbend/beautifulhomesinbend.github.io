@@ -19,6 +19,7 @@ a:hover {
 #top-nav-id {
 	box-shadow: 0px -10px 10px 10px ##a5a5a5;
 	background-color: #0F0F0F;
+	z-index: 10001;
 }
 
 .navbar-brand {
@@ -33,42 +34,44 @@ a:hover {
 
 .main {
 	max-width: 1080px;
+	margin-top: 25px;
 }
 
 #sparks-lake, #mirror-pond, #mt-bachelor {
-	margin-top: 25px;
 	min-height: 400px;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-shadow: 0px 10px 10px 5px #808080;
-	color: white;
 	text-shadow: black 0.3em 0.3em 0.3em;
 	overflow: auto;
 	word-wrap: break-word;
+	color: #fff;
 }
 
 #sparks-lake h1, #sparks-lake p, #mirror-pond h1, #mirror-pond p, #mt-bachelor h1, #mt-bachelor p {
 	bottom: 0;
 	position: absolute;
 	font-size: 1.5em;
+	padding-left: 10px;
 }
 
-.sparks {
+#sparks-lake {
 	background-image: url('img/sparks-lake.jpg');
 }
 
-.mirror {
+#mirror-pond {
 	background-image: url('img/Mirror_Pond_from_The_Emblem_Club.jpg');
 }
 
-.bachelor {
+#mt-bachelor {
 	background-image: url('img/Mt._Bachelor_from_Tumalo_Mtn.jpg');
 }
 
 .slick-dots li button::before {
-	font-size: 30px;
+	font-size: 40px;
 	bottom: 40px;
+	color: #000;
 }
 
 .lead {
